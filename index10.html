@@ -1,0 +1,46 @@
+<!-- Trocar a ordem das colunas e alinhamento individualizado das colunas -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca de ordem das colunas</title>
+    <link rel="stylesheet" href="recursos/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col"><h1>1</h1></div>
+            <div class="col"><h1>2</h1></div>
+            <div class="col"><h1>3</h1></div>
+        </div>
+
+        <!-- Trocando a ordem das colunas -->
+        <div class="row">
+            <div class="col order-3"><h1>1</h1></div>
+            <div class="col order-2"><h1>2</h1></div>
+            <div class="col order-1"><h1>3</h1></div>
+        </div>
+    </div>
+    
+    <!-- Alinhamento individualizado das colunas -->
+    <div class="container">
+        <div class="row">
+            <div class="col"><h1>A</h1></div>
+            <div class="col"><h1>B</h1></div>
+            <div class="col"><h1>C</h1></div>
+            <div class="col"><h1>D</h1></div>
+        </div>
+
+        <div class="row">
+            <div class="col"><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sit voluptate fugit consectetur eligendi omnis explicabo quis cum est. Dolore!</h6></div>
+            <div class="col align-self-start"><h1>B</h1></div>
+            <div class="col align-self-center"><h1>C</h1></div>
+            <div class="col align-self-end"><h1>D</h1></div>
+        </div>
+    </div>
+
+    <script src="recursos/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
